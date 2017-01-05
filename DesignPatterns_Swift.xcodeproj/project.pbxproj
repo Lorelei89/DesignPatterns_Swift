@@ -47,6 +47,9 @@
 		C23DBB291E1E862000ED3AF2 /* DesignPatterns_SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesignPatterns_SwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C23DBB2D1E1E862000ED3AF2 /* DesignPatterns_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignPatterns_SwiftUITests.swift; sourceTree = "<group>"; };
 		C23DBB2F1E1E862100ED3AF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C23DBB4A1E1E8A1500ED3AF2 /* Adapter.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Adapter.playground; sourceTree = "<group>"; };
+		C23DBB4C1E1E8A5A00ED3AF2 /* ChainOfResponsibility.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ChainOfResponsibility.playground; sourceTree = "<group>"; };
+		C23DBB4D1E1E8B3600ED3AF2 /* AbstractFactory.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = AbstractFactory.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +80,9 @@
 		C23DBB011E1E862000ED3AF2 = {
 			isa = PBXGroup;
 			children = (
+				C23DBB3D1E1E88CD00ED3AF2 /* StructuralPatterns */,
+				C23DBB3C1E1E88B900ED3AF2 /* CreationalPatterns */,
+				C23DBB3B1E1E889400ED3AF2 /* BehavioralPatterns */,
 				C23DBB0C1E1E862000ED3AF2 /* DesignPatterns_Swift */,
 				C23DBB211E1E862000ED3AF2 /* DesignPatterns_SwiftTests */,
 				C23DBB2C1E1E862000ED3AF2 /* DesignPatterns_SwiftUITests */,
@@ -123,6 +129,30 @@
 				C23DBB2F1E1E862100ED3AF2 /* Info.plist */,
 			);
 			path = DesignPatterns_SwiftUITests;
+			sourceTree = "<group>";
+		};
+		C23DBB3B1E1E889400ED3AF2 /* BehavioralPatterns */ = {
+			isa = PBXGroup;
+			children = (
+				C23DBB4C1E1E8A5A00ED3AF2 /* ChainOfResponsibility.playground */,
+			);
+			name = BehavioralPatterns;
+			sourceTree = "<group>";
+		};
+		C23DBB3C1E1E88B900ED3AF2 /* CreationalPatterns */ = {
+			isa = PBXGroup;
+			children = (
+				C23DBB4D1E1E8B3600ED3AF2 /* AbstractFactory.playground */,
+			);
+			name = CreationalPatterns;
+			sourceTree = "<group>";
+		};
+		C23DBB3D1E1E88CD00ED3AF2 /* StructuralPatterns */ = {
+			isa = PBXGroup;
+			children = (
+				C23DBB4A1E1E8A1500ED3AF2 /* Adapter.playground */,
+			);
+			name = StructuralPatterns;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
